@@ -11,9 +11,9 @@ from PyQt5.QtWidgets import QMainWindow
 
 import logging
 
-from text_edit_logger import QPlainTextEditLogger
-from logger import set_logger_level, init_console_logger
-from cfg import get_configs, overwrite_config
+from qtgui.text_edit_logger import QPlainTextEditLogger
+from qtgui.logger import set_logger_level, init_console_logger
+from qtgui.cfg import get_configs, overwrite_config
 
 logger = init_console_logger(name="gui")
 

@@ -5,9 +5,9 @@
 from time import sleep
 import threading
 
-from workers.classes import CommunicateLog, CommunicateProgress
+from qtgui.workers.classes import CommunicateLog, CommunicateProgress
 
-from logger import init_signal_logger
+from qtgui.logger import init_signal_logger
 
 
 class LoadThread(threading.Thread):

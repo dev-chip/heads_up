@@ -8,8 +8,8 @@
 # Created:     05/03/2020
 #-------------------------------------------------------------------------------
 
-from main_window import *
-from logger import init_console_logger
+from qtgui.main_window import *
+from qtgui.logger import init_console_logger
 
 logger = init_console_logger(name="gui")
 

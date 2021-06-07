@@ -8,12 +8,12 @@
 # Copyright:   (c) James Cook 2020
 # -------------------------------------------------------------------------------
 
-from gen import MainWindowGenerated
-from thread import thread_log
-from window import Window
-from logger import init_console_logger
+from qtgui.gen import MainWindowGenerated
+from qtgui.thread import thread_log
+from qtgui.window import Window
+from qtgui.logger import init_console_logger
 
-from workers.routine1 import LoadThread
+from qtgui.workers.routine1 import LoadThread
 
 logger = init_console_logger(name="gui")
 

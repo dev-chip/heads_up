@@ -2,6 +2,6 @@
 # Init for gen package
 #-------------------------------------------------------------------------------
 
-from gen.confirmGenerated import *
-from gen.MainWindowGenerated import *
-from gen.messageGenerated import *
+from qtgui.gen.confirmGenerated import *
+from qtgui.gen.MainWindowGenerated import *
+from qtgui.gen.messageGenerated import *

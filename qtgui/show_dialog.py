@@ -3,8 +3,8 @@
 #
 
 from PyQt5.QtWidgets import QDialog
-from gen import (messageGenerated,
-                 confirmGenerated)
+from qtgui.gen import (messageGenerated,
+                       confirmGenerated)
 
 
 def show_message_dialog(text):

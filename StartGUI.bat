@@ -1,1 +1,1 @@
-pythonw "program_files\start_gui.py"
+pythonw "start_gui.py"
