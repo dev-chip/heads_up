@@ -5,12 +5,12 @@
 from PyQt5 import QtCore
 
 
-class CommunicateLog(QtCore.QObject):
-    myGUI_signal = QtCore.pyqtSignal([str, str])
+class CommunicateSuccess(QtCore.QObject):
+    myGUI_signal = QtCore.pyqtSignal([int, list, list, list])
 
 
-class CommunicateProgress(QtCore.QObject):
-    myGUI_signal = QtCore.pyqtSignal([float])
+class CommunicateError(QtCore.QObject):
+    myGUI_signal = QtCore.pyqtSignal([Exception])
 
 
 if __name__ == "__main__":

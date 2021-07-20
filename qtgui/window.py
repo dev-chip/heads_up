@@ -34,7 +34,8 @@ class Window(QMainWindow):
                 logger.addHandler(QPlainTextEditLogger(self.ui.textEdit))
                 set_logger_level(logger.level, name="gui") # essential to set the new handler's log level
             except Exception as e:
-                raise "Failed to add textEdit as a handler for logger: " + str(e)
+                #raise "Failed to add textEdit as a handler for logger: " + str(e)
+                logger.warning("Failed to add textEdit as a handler for logger: " + str(e))
 
             try:
                 self.ui.actionDISABLE.triggered.connect(self.logger_disable_checked)

@@ -30,7 +30,7 @@ version_id = 1.0
 def print_pretty_name():
     print (
             "    ***************************************************" + "\n"
-            "                  EasyBoard - VERSION  %s          " % str(version_id) + "\n"
+            "                  Heads Up - VERSION  %s          " % str(version_id) + "\n"
             "    ***************************************************"
            )
 
@@ -54,8 +54,9 @@ if __name__ == '__main__':
     logger.info("Starting GUI...")
 
     app = QApplication(sys.argv)
-    # set icon
 
+    # set icon
+    # TODO: set icon
 
     controller = Controller()
     controller.show_main()

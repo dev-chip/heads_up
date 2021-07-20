@@ -2,4 +2,4 @@
 # Innit for workers package
 #-------------------------------------------------------------------------------
 
-from qtgui.workers.routine1 import *
+from qtgui.workers.calendar_worker import *
